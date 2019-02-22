@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  yelp-api:
+    image: yelp-api
+    container_name: "yelp-api"
+    ports:
+      - 3000:3000
