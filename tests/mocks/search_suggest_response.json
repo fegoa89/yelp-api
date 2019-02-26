@@ -1,0 +1,72 @@
+{
+    "unique_request_id": "XXXXXXX",
+    "response": [
+        {
+            "prefix": "brandenburger",
+            "suggestions": [
+                {
+                    "ajax_data": "null",
+                    "css_class": null,
+                    "is_bookmarked": null,
+                    "is_typeahead": false,
+                    "name_param": "find_desc",
+                    "num_checkins": null,
+                    "query": "Brandenburger Tor",
+                    "redirect_url": "/biz/brandenburger-tor-berlin",
+                    "subtitle": "Pariser Platz, Berlin",
+                    "thumbnail": {
+                        "color": null,
+                        "key": "https://s3-media3.fl.yelpcdn.com/bphoto/qLqHRvEOXeOh1tMk-5i4ow/30s.jpg",
+                        "type": "image-rounded"
+                    },
+                    "title": "Brandenburger Tor",
+                    "version": 1,
+                    "type": "business",
+                    "refinements": null
+                },
+                {
+                    "ajax_data": "null",
+                    "css_class": null,
+                    "is_bookmarked": null,
+                    "is_typeahead": false,
+                    "name_param": "find_desc",
+                    "num_checkins": null,
+                    "query": "Brandenburger Tor Museum",
+                    "redirect_url": "/biz/brandenburger-tor-museum-berlin",
+                    "subtitle": "Pariser Platz 4 A, Berlin",
+                    "thumbnail": {
+                        "color": null,
+                        "key": "https://s3-media2.fl.yelpcdn.com/bphoto/0CTh3EJq9cp_CDLEzQ82pA/30s.jpg",
+                        "type": "image-rounded"
+                    },
+                    "title": "Brandenburger Tor Museum",
+                    "version": 1,
+                    "type": "business",
+                    "refinements": null
+                },
+                {
+                    "ajax_data": "null",
+                    "css_class": null,
+                    "is_bookmarked": null,
+                    "is_typeahead": false,
+                    "name_param": "find_desc",
+                    "num_checkins": null,
+                    "query": "Sehenswürdigkeiten",
+                    "redirect_url": null,
+                    "subtitle": null,
+                    "thumbnail": null,
+                    "title": "Sehenswürdigkeiten",
+                    "version": 1,
+                    "type": "category",
+                    "refinements": null
+                }
+            ],
+            "unique_suggestion_id": "YYYYYYYY",
+            "unique_request_id": "ZZZZZZZ",
+            "typeahead": {
+                "typeahead_text": "Brandenburger Tor",
+                "url": "/biz/brandenburger-tor-berlin"
+            }
+        }
+    ]
+}
