@@ -1,5 +1,6 @@
 # Yelp Api
-Simple API intended to interact with Yelp API 2.0 Services.
+Simple API intended to interact with Yelp API Services.
+It has implemented as API endpoints the same async calls that Yelp website does when a user look for location suggestions, search suggestions or a search snippet for a given location and description.
 
 ## Start Server
 
@@ -19,7 +20,7 @@ $ docker-compose up
 
 or with the following command
 ```
-$ docker run -p 3000:3000 yelp
+$ docker run -p 3000:3000 yelp-api
 ```
 
 ### Run with NPM
@@ -31,7 +32,7 @@ $ npm run start
 ## Routes Implemented
 
 ### Return location suggestions based on user input
-```json
+```javascript
 // GET localhost:3000/location_suggest?prefix=Friedrich
 {
     "suggestions": [
@@ -90,7 +91,7 @@ $ npm run start
 
 ### Return search suggestions based on user input
 
-```json
+```javascript
 // GET localhost:3000/search_suggest?loc=Berlin&prefix=Brandenburger
 {
     "unique_request_id": "XXXXXXX",
@@ -169,7 +170,7 @@ $ npm run start
 ### Return search snippet based on search description and location
 
 
-```json
+```javascript
 // GET localhost:3000/snippet_search?find_desc=Burger&find_loc=Duesseldorf
 // NOTE: This request returns a HUGE amount of data, here is some part of the returned object
 {
