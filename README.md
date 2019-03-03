@@ -1,3 +1,4 @@
+[![Build Status](https://semaphoreci.com/api/v1/fegoa89/yelp-api/branches/master/badge.svg)](https://semaphoreci.com/fegoa89/yelp-api)
 # Yelp Api
 Simple API intended to interact with Yelp API Services.
 It has implemented as API endpoints the same async calls that Yelp website does when a user look for location suggestions, search suggestions or a search snippet for a given location and description.
